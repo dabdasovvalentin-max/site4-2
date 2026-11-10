@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dabdasovvalentin-max.github.io/dval-repo/sitemap.xml

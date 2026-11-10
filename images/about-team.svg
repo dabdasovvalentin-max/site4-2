@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="title desc">
+  <title id="title">Команда курсов IT</title>
+  <desc id="desc">Иллюстрация: окно браузера с учебным проектом и три преподавателя курсов IT.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e7f0ff"/>
+      <stop offset="1" stop-color="#f9fbff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f6feb"/>
+      <stop offset="1" stop-color="#42a5f5"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#1c3d7a" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="90" cy="600" r="150" fill="#d7e6ff"/>
+  <circle cx="1110" cy="80" r="120" fill="#dceaff"/>
+
+  <rect x="170" y="92" width="860" height="490" rx="22" fill="#ffffff" filter="url(#shadow)"/>
+  <rect x="170" y="92" width="860" height="58" rx="22" fill="#f1f5fc"/>
+  <rect x="170" y="128" width="860" height="22" fill="#f1f5fc"/>
+  <circle cx="204" cy="121" r="7" fill="#ff6b6b"/>
+  <circle cx="228" cy="121" r="7" fill="#ffc857"/>
+  <circle cx="252" cy="121" r="7" fill="#4cd964"/>
+  <rect x="300" y="108" width="380" height="26" rx="13" fill="#e4ecf8"/>
+
+  <text x="222" y="218" font-family="system-ui, Arial, sans-serif" font-size="42" font-weight="700" fill="#123a7a">Команда курсов IT</text>
+  <text x="222" y="254" font-family="system-ui, Arial, sans-serif" font-size="21" fill="#5c6779">Практика • Наставничество • Портфолио</text>
+  <rect x="222" y="280" width="200" height="6" rx="3" fill="url(#accent)"/>
+
+  <g font-family="system-ui, Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(355, 425)">
+      <circle cx="0" cy="0" r="66" fill="#e8f1ff"/>
+      <circle cx="0" cy="-18" r="24" fill="#1f6feb"/>
+      <path d="M-42 52c4-30 20-46 42-46s38 16 42 46z" fill="#1f6feb"/>
+      <text x="0" y="100" font-size="20" font-weight="600" fill="#1c2433">Анна</text>
+      <text x="0" y="126" font-size="17" fill="#5c6779">Frontend</text>
+    </g>
+    <g transform="translate(600, 410)">
+      <circle cx="0" cy="0" r="78" fill="#e8f1ff"/>
+      <circle cx="0" cy="-20" r="28" fill="#1552b3"/>
+      <path d="M-48 60c4-34 22-52 48-52s44 18 48 52z" fill="#1552b3"/>
+      <text x="0" y="112" font-size="21" font-weight="600" fill="#1c2433">Игорь</text>
+      <text x="0" y="138" font-size="17" fill="#5c6779">Backend</text>
+    </g>
+    <g transform="translate(845, 425)">
+      <circle cx="0" cy="0" r="66" fill="#e8f1ff"/>
+      <circle cx="0" cy="-18" r="24" fill="#42a5f5"/>
+      <path d="M-42 52c4-30 20-46 42-46s38 16 42 46z" fill="#42a5f5"/>
+      <text x="0" y="100" font-size="20" font-weight="600" fill="#1c2433">Мария</text>
+      <text x="0" y="126" font-size="17" fill="#5c6779">SEO</text>
+    </g>
+  </g>
+</svg>
